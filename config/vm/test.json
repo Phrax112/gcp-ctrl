@@ -1,0 +1,8 @@
+{
+    "name" : "test-vm",
+    "zone" : "europe-west2-b",
+    "machine_type" : "n1-standard-1",
+    "image_project" : "debian-cloud",
+    "image_family" : "debian-9",
+    "service_account" : "26533232462-compute"
+}

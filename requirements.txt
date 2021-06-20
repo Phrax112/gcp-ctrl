@@ -1,0 +1,4 @@
+scripts==2.0
+requests==2.23.0
+google_api_python_client==1.9.1
+protobuf==3.12.2

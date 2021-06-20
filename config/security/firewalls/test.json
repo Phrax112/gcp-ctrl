@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "description": "Allow firewall rule for ...",
+  "network": "global/networks/default",
+  "priority": 1000,
+  "sourceRanges": [
+    "35. ..."
+  ],
+  "destinationRanges": [
+    "www..com",
+    "www..com"
+  ],
+  "sourceTags": [
+    ""
+  ],
+  "targetTags": [
+    ""
+  ],
+  "sourceServiceAccounts": [
+    ""
+  ],
+  "targetServiceAccounts": [
+    ""
+  ],
+  "allowed": [
+    {
+      "IPProtocol": string,
+      "ports": [
+        [ "9092" ]
+      ]
+    }
+  ],
+  "denied": [
+    {
+      "IPProtocol": string,
+      "ports": [
+        string
+      ]
+    }
+  ],
+  "direction": enum,
+  "logConfig": {
+    "enable": boolean
+  },
+  "disabled": boolean,
+  "selfLink": string,
+  "kind": string
+}
